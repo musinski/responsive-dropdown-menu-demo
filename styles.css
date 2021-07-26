@@ -13,6 +13,7 @@
 body {
     background-color: #f2f2f2;
     color: white;
+    overflow-x: hidden;
 }
 
 nav {
@@ -75,10 +76,6 @@ a:visited {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
     .nav-links {
         position: absolute;
         height: 45vh;
